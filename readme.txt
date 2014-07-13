@@ -3,16 +3,16 @@ Contributors: endocreative
 Donate link: http://endocreative.com
 Tags: edit page, toolbar, admin bar, list pages, 
 Requires at least: 3.0.1
-Tested up to: 3.6.1
-Stable tag: 1.0
+Tested up to: 3.9.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Adds a dropdown to the WordPress toolbar of the 10 most recently edited pages. 
+Adds a dropdown to the WordPress toolbar of the 15 most recently edited pages. 
 
 == Description ==
 
-Adds a dropdown 'Page List' to the WordPress toolbar of the 10 most recently edited pages. This gives you quick access to a specific page, helpful when populating a site with content.
+Adds a dropdown 'Page List' to the WordPress toolbar of the 15 most recently edited pages. This gives you quick access to a specific page, helpful when populating a site with content.
 
 This plugin is designed to speed up the process of editing and laying out page content before launch. 
 
