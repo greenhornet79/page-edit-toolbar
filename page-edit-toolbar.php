@@ -4,7 +4,7 @@
 Plugin Name: Page Edit Toolbar
 Plugin URI: http://www.endocreative.com
 Description: Adds most recently edited pages to the WordPress Toolbar for easy access
-Version: 1.0
+Version: 1.1
 Author: Endo Creative
 Author URI: http://www.endocreative.com
 */
@@ -24,7 +24,7 @@ function page_admin_bar_function( $wp_admin_bar ) {
 	// get list of pages
 	$pages = recently_edited_pages();
 
-	// loop through up to 10 most recently modified pages
+	// loop through up to 15 most recently modified pages
 	foreach( $pages as $page ) {
 
 		// add child nodes (pages to edit)
@@ -43,12 +43,12 @@ function page_admin_bar_function( $wp_admin_bar ) {
 function recently_edited_pages() {
 
 	$args = array(
-		'number' => 10,
+		'number' => 15,
 		'sort_column' => 'post_modified',
 		'sort_order' => 'desc'
 	);
 
-	$pages = get_posts( $args );
+	$pages = get_pages( $args );
 
 	return $pages;
 	
