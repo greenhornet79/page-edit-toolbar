@@ -18,7 +18,7 @@ This plugin is designed to speed up the process of editing and laying out page c
 
 Currently it only displays pages, not posts or custom post types.
 
-== Installation ===
+== Installation ==
 
 1. Upload `page-edit-toolbar.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
@@ -26,9 +26,12 @@ Currently it only displays pages, not posts or custom post types.
 
 == Screenshots ==
 
-1. The dropdown shows the 10 most recently modified pages.
+1. The dropdown shows the 15 most recently modified pages.
 
 == Changelog ==
+
+= 1.1 =
+* Update number of pages in the list to 15
 
 = 0.1 =
 * Initial plugin submission
